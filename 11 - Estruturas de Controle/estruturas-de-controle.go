@@ -15,5 +15,9 @@ func main() {
 
 	if outroNumero := numero; outroNumero > 0 {
 		fmt.Println("número é maior que zero")
+	} else if numero < -10 {
+		fmt.Println("número é menor que -10")
+	} else {
+		fmt.Println("número está entre 0 e -10")
 	}
 }
